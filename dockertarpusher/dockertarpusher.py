@@ -146,7 +146,7 @@ class Registry:
             yield data
 
     def setAuth(self, authObj):
-        self.atuh = authObj
+        self.auth = authObj
 
     def chunkedUpload(self, file, url):
         content_name = str(file)
